@@ -1,5 +1,6 @@
 module ElementHashes
-  require 'rubygems'
+  require 'facebook_messenger_bot/messenger_one_time_apis'
+  require 'facebook_messenger_bot/webhook'
   def element_hash(title, sub_title, image_url, default_action, buttons)
     element = Hash.new
     element[:title] = title if title.present?

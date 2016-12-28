@@ -1,5 +1,7 @@
 module Webhook
 
+  require 'facebook_messenger_bot/element_hashes'
+  require 'facebook_messenger_bot/messenger_one_time_apis'
 
   def send_text_message(recipient_id, message_text, metadata = nil)
     message_data = Hash.new
