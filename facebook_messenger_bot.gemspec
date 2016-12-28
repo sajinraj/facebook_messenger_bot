@@ -6,12 +6,12 @@ require 'facebook_messenger_bot/version'
 Gem::Specification.new do |spec|
   spec.name          = "facebook_messenger_bot"
   spec.version       = FacebookMessengerBot::VERSION
-  spec.authors       = ["suslov"]
-  spec.email         = ["suslov@qburst.com"]
+  spec.authors       = ["sajinraj"]
+  spec.email         = ["sajin@qburst.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Facebook Messenger Bot for Rails}
+  spec.description   = %q{Use this gem to integrate Facebook Messenger Bot in your rails application}
+  spec.homepage      = "https://github.com/sajinraj/facebook_messenger_bot"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
