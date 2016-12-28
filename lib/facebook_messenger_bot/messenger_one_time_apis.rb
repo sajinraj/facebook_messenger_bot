@@ -1,6 +1,5 @@
 module MessengerOneTimeApis
 
-  require 'facebook_messenger_bot/webhook'
   require 'facebook_messenger_bot/element_hashes'
   def create_persistent_menu_hash(menu_array)
     menu = Hash.new
