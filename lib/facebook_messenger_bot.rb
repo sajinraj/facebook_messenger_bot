@@ -3,10 +3,6 @@ module FacebookMessengerBot
   require "facebook_messenger_bot/version"
   require "facebook_messenger_bot/railtie" if defined?(Rails)
 
-  def self.root
-    File.dirname __dir__
-  end
-
   def send_text_message(recipient_id, message_text, metadata = nil)
     message_data = Hash.new
     message_data['recipient'] = {'id' => recipient_id}
