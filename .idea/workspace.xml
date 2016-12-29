@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facebook_messenger_bot.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="facebook_messenger_bot.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facebook_messenger_bot.gemspec" pinned="false" current-in-tab="false">
+      <file leaf-file-name="facebook_messenger_bot.gemspec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/facebook_messenger_bot.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,13 +139,13 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/webhook.rb" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/element_hashes.rb" />
-        <option value="$PROJECT_DIR$/facebook_messenger_bot.gemspec" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/messenger_one_time_apis.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/tasks/messenger_bot.rake" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/version.rb" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/railtie.rb" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot.rb" />
+        <option value="$PROJECT_DIR$/facebook_messenger_bot.gemspec" />
       </list>
     </option>
   </component>
@@ -478,12 +478,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482913752988</updated>
-      <workItem from="1482913754776" duration="17444000" />
+      <workItem from="1482913754776" duration="17544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17444000" />
+    <option name="totallyTimeSpent" value="17544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -594,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facebook_messenger_bot.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/messenger_bot.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -630,6 +622,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook_messenger_bot.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

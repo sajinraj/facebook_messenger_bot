@@ -5,7 +5,7 @@ require 'facebook_messenger_bot/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "facebook_messenger_bot"
-  spec.version       = FacebookMessengerBotVersion::VERSION
+  spec.version       = FacebookMessengerBot::VERSION
   spec.authors       = ["sajinraj"]
   spec.email         = ["sajin@qburst.com"]
 
