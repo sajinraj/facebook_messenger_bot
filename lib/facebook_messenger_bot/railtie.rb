@@ -1,4 +1,4 @@
-require 'your_gem'
+require 'facebook_messenger_bot'
 require 'rails'
 module FacebookMessengerBot
   class Railtie < Rails::Railtie
