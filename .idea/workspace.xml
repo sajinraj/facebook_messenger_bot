@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facebook_messenger_bot.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="facebook_messenger_bot.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="railtie.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="railtie.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/railtie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="75">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -144,8 +144,8 @@
         <option value="$PROJECT_DIR$/lib/tasks/messenger_bot.rake" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/version.rb" />
         <option value="$PROJECT_DIR$/facebook_messenger_bot.gemspec" />
-        <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/railtie.rb" />
         <option value="$PROJECT_DIR$/lib/facebook_messenger_bot.rb" />
+        <option value="$PROJECT_DIR$/lib/facebook_messenger_bot/railtie.rb" />
       </list>
     </option>
   </component>
@@ -478,12 +478,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482913752988</updated>
-      <workItem from="1482913754776" duration="19817000" />
+      <workItem from="1482913754776" duration="20101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19817000" />
+    <option name="totallyTimeSpent" value="20101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -602,14 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/railtie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facebook_messenger_bot.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -630,6 +622,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/railtie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
