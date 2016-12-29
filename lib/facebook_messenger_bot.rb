@@ -230,8 +230,11 @@ module FacebookMessengerBot
     request.body = message_data.to_json
     response = http.request(request)
     if response.code == :ok
+      response
+    else
+      Rails.logger.info("\e[31m#{"messenger call_thread_settings_API failed with below request and response details..."}\e[0m" + "\nRequest: #{request.body} \nResponse: #{response.body}")
+
     end
-    response
   end
 
   def call_send_API(message_data)
@@ -244,7 +247,7 @@ module FacebookMessengerBot
     request.body = message_data.to_json
     response = http.request(request)
     if response.code != '200'
-      logger.info("\e[31m#{"messenger call_send_API failed with below request and response details..."}\e[0m" + "\nRequest: #{request.body} \nResponse: #{response.body}")
+      Rails.logger.info("\e[31m#{"messenger call_send_API failed with below request and response details..."}\e[0m" + "\nRequest: #{request.body} \nResponse: #{response.body}")
     end
   end
 
