@@ -1,6 +1,7 @@
 module FacebookMessengerBot
   extend self
   require "facebook_messenger_bot/version"
+  require "lib/facebook_messenger_bot/railtie" if defined?(Rails)
 
   def send_text_message(recipient_id, message_text, metadata = nil)
     message_data = Hash.new
