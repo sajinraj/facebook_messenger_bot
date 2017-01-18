@@ -1,3 +1,4 @@
+require 'rails/generators'
 module FacebookMessengerBot
   module Generators
     class InstallGenerator < Rails::Generators::Base
