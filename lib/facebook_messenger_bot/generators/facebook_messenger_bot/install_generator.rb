@@ -2,12 +2,18 @@ require 'rails/generators'
 module FacebookMessengerBot
   module Generators
     class InstallGenerator < Rails::Generators::Base
-      source_root File.expand_path("../../templates", __FILE__)
       desc "Creates FacebookMessengerBot initializer for your application"
 
-      template "facebook_messenger_bot_initializer.rb", "config/initializers/messenger_bot.rb"
+      def copy_initializer
+        template "facebook_messenger_bot_initializer.rb", "config/initializers/messenger_bot.rb"
 
-      puts "Install complete! Enjoy!"
+        puts "Install complete! Enjoy!"
+      end
+
+
+      def self.source_root
+        @source_root ||= File.join(File.dirname(__FILE__), 'templates')
+      end
     end
   end
 end
