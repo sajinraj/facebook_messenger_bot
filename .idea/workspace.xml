@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b97aa595-0f00-4370-b891-a0d783faa4d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/templates/facebook_messenger_bot_initializer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb" afterPath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb" />
     </list>
     <ignored path="facebook_messenger_bot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="79" />
+              <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -530,12 +528,12 @@
       <updated>1482913752988</updated>
       <workItem from="1482913754776" duration="22032000" />
       <workItem from="1484652177711" duration="35000" />
-      <workItem from="1484711925428" duration="3841000" />
+      <workItem from="1484711925428" duration="4008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25908000" />
+    <option name="totallyTimeSpent" value="26075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -848,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="79" />
+          <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
           <folding />
         </state>
       </provider>
