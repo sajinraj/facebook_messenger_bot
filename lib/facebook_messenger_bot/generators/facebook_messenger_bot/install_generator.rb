@@ -5,11 +5,9 @@ module FacebookMessengerBot
       source_root File.expand_path("../../templates", __FILE__)
       desc "Creates FacebookMessengerBot initializer for your application"
 
-      def copy_initializer
-        template "facebook_messenger_bot_initializer.rb", "config/initializers/messenger_bot.rb"
+      template "facebook_messenger_bot_initializer.rb", "config/initializers/messenger_bot.rb"
 
-        puts "Install complete! Enjoy!"
-      end
+      puts "Install complete! Enjoy!"
     end
   end
 end
