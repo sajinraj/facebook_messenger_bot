@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b97aa595-0f00-4370-b891-a0d783faa4d5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/templates/facebook_messenger_bot_initializer.rb" afterPath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/templates/facebook_messenger_bot_initializer.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/facebook_messenger_bot/install_generator.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/templates/facebook_messenger_bot_initializer.rb" afterPath="$PROJECT_DIR$/lib/generators/facebook_messenger_bot/templates/facebook_messenger_bot_initializer.rb" />
     </list>
     <ignored path="facebook_messenger_bot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +49,7 @@
         </entry>
       </file>
       <file leaf-file-name="facebook_messenger_bot_initializer.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/templates/facebook_messenger_bot_initializer.rb">
+        <entry file="file://$PROJECT_DIR$/lib/generators/facebook_messenger_bot/templates/facebook_messenger_bot_initializer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
@@ -58,7 +59,7 @@
         </entry>
       </file>
       <file leaf-file-name="install_generator.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb">
+        <entry file="file://$PROJECT_DIR$/lib/generators/facebook_messenger_bot/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
@@ -242,51 +243,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="facebook_messenger_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook_messenger_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook_messenger_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook_messenger_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook_messenger_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook_messenger_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook_messenger_bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebook_messenger_bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebook_messenger_bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebook_messenger_bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,6 +281,7 @@
       <recent name="$PROJECT_DIR$/lib/facebook_messenger_bot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot" />
       <recent name="$PROJECT_DIR$/lib/facebook_messenger_bot" />
     </key>
@@ -503,12 +479,12 @@
       <updated>1482913752988</updated>
       <workItem from="1482913754776" duration="22032000" />
       <workItem from="1484652177711" duration="35000" />
-      <workItem from="1484711925428" duration="5355000" />
+      <workItem from="1484711925428" duration="5580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27422000" />
+    <option name="totallyTimeSpent" value="27647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -810,7 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/templates/facebook_messenger_bot_initializer.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/facebook_messenger_bot/templates/facebook_messenger_bot_initializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
@@ -818,7 +794,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/facebook_messenger_bot/generators/facebook_messenger_bot/install_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/facebook_messenger_bot/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
